@@ -20,7 +20,6 @@
             <th>Score</th>
         </tr>
         <tr th:each="grade: ${grades}">
-            <td th:text="*{grade.id}">
             <td th:text="*{grade.name}"></td>
             <td th:text="*{grade.subject}"></td>
             <td th:text="*{grade.score}"></td>
